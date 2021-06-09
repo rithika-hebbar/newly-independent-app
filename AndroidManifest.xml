@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+    package="com.example.newlyindependent" 
+    android:versionCode="1" 
+    android:versionName="1.0" > 
+    <uses-sdk 
+        android:minSdkVersion="19" 
+        android:targetSdkVersion="22" /> 
+    <application 
+        android:allowBackup="true" 
+        android:icon="@drawable/ic_launcher" 
+        android:label="@string/app_name" 
+        android:theme="@style/AppTheme" > 
+        <activity 
+            android:name="com.example.newlyindependent.SplashScreen" 
+            android:label="@string/app_name" > 
+            <intent-filter> 
+                <action android:name="android.intent.action.MAIN" /> 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity> 
+        <activity android:name="com.example.newlyindependent.MainActivity"></activity>
+        <activity android:name="com.example.newlyindependent.LoginActivity"></activity>
+        <activity android:name="com.example.newlyindependent.HomeActivity"></activity>
+        <activity android:name="com.example.newlyindependent.MealPlanActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.BreakfastActivity" 
+                  android:parentActivityName="com.example.newlyindependent.HomeActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.LunchActivity" 
+                  android:parentActivityName="com.example.newlyindependent.HomeActivity"></activity>
+        <activity android:name="com.example.newlyindependent.DinnerActivity" 
+                  android:parentActivityName="com.example.newlyindependent.HomeActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.SandwichActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.RavadosaActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.AboutActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.ChapatiActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.LemonActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.PlanMealActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.RasamActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.UpmaActivity"></activity> 
+        <activity android:name="com.example.newlyindependent.ListItemActivity"></activity>
+    </application> 
+</manifest>
