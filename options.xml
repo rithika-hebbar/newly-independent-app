@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item android:id="@+id/action_mealplan" 
+        android:icon="@drawable/mealplanicon" 
+        android:title="Plan your meal" 
+        android:showAsAction="always" /> 
+  <item android:id="@+id/action_about" 
+        android:title="About the app" 
+        android:showAsAction="never" /> 
+</menu> 
