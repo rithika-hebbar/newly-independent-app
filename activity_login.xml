@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent" >
+    
+    <EditText android:id="@+id/etlogemail" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_alignParentTop="true" 
+              android:layout_centerHorizontal="true" 
+              android:layout_marginTop="118dp" 
+              android:ems="10" 
+              android:hint="Email Address" 
+              android:inputType="textEmailAddress" 
+              android:textColor="#a80936" 
+              android:textColorHint="#a80936" > 
+        <requestFocus /> 
+    </EditText>
+    
+    <EditText android:id="@+id/etpassl" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_below="@+id/etlogemail" 
+              android:layout_centerHorizontal="true" 
+              android:layout_marginTop="17dp" 
+              android:ems="10" 
+              android:hint="Password" 
+              android:inputType="textPassword" 
+              android:textColor="#008037" 
+              android:textColorHint="#008037" /> 
+    
+    <TextView android:id="@+id/tvwel" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_alignBottom="@+id/etlogemail" 
+              android:layout_centerHorizontal="true" 
+              android:layout_marginBottom="55dp" 
+              android:text="Login" 
+              android:textAppearance="?android:attr/textAppearanceLarge" /> 
+
+    <Button android:id="@+id/btnlogin1"
+            android:layout_width="wrap_content" 
+            android:layout_height="40dp" 
+            android:layout_below="@+id/etpassl"
+            android:layout_centerHorizontal="true" 
+            android:layout_marginTop="22dp" 
+            android:background="#000000" 
+            android:padding="9dp" 
+            android:text="Continue" 
+            android:textColor="#ffffff" /> 
+    
+    <Button android:id="@+id/btnregister" 
+            android:layout_width="wrap_content" 
+            android:layout_height="26dp" 
+            android:layout_below="@+id/btnlogin1" 
+            android:layout_centerHorizontal="true" 
+            android:layout_marginTop="16dp" 
+            android:background="#ffde59" 
+            android:padding="5dp" 
+            android:text="Create a new account!" 
+            android:textSize="13dp" /> 
+</RelativeLayout> 
