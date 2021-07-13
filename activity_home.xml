@@ -1,1 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+                xmlns:tools="http://schemas.android.com/tools" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent" 
+                android:padding="10dp" > 
+    
+    <Button android:id="@+id/btnrec" 
+            android:layout_width="match_parent" 
+            android:layout_height="110dp" 
+            android:layout_alignParentLeft="true" 
+            android:layout_below="@+id/tvwel" 
+            android:layout_marginTop="30dp" 
+            android:background="@drawable/breakfast" 
+            android:text="\n\n\nBreakfast" 
+            android:textColor="#ffffff" />
 
+    <Button android:id="@+id/btndel" 
+            android:layout_width="wrap_content" 
+            android:layout_height="110dp" 
+            android:layout_alignLeft="@+id/btnrec" 
+            android:layout_below="@+id/btnrec" 
+            android:layout_marginTop="14dp" 
+            android:background="@drawable/lunch" 
+            android:text="\n\n\nLunch" 
+            android:textColor="#ffffff" /> 
+    
+    <Button android:id="@+id/button3" 
+            android:layout_width="wrap_content" 
+            android:layout_height="110dp" 
+            android:layout_alignLeft="@+id/btndel" 
+            android:layout_below="@+id/btndel" 
+            android:layout_marginTop="14dp" 
+            android:background="@drawable/dinner" 
+            android:text="\n\n\nDinner" 
+            android:textColor="#000000" /> 
+    
+    <TextView android:id="@+id/tvwel" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_alignParentTop="true" 
+              android:layout_centerHorizontal="true" 
+              android:text="---" 
+              android:textAppearance="?android:attr/textAppearanceMedium" /> 
+</RelativeLayout> 
