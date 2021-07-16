@@ -1,1 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent" > 
+    
+    <ImageView android:id="@+id/imageView1" 
+               android:layout_width="wrap_content" 
+               android:layout_height="200dp" 
+               android:layout_alignParentLeft="true" 
+               android:layout_below="@+id/tvnone" 
+               android:contentDescription="nothing" 
+               android:src="@drawable/appiconn" /> 
+    
+    <TextView android:id="@+id/tvnone" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_alignParentTop="true" 
+              android:layout_centerHorizontal="true" 
+              android:layout_marginTop="34dp" 
+              android:text="About the app" 
+              android:textAppearance="?android:attr/textAppearanceLarge" 
+              android:textColor="#a80936" /> 
+    
+    <TextView android:id="@+id/mealtv" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_alignParentBottom="true" 
+              android:layout_alignParentLeft="true"
+              android:layout_marginBottom="28dp" 
+              android:padding="30dp" 
+              android:text="Newly independent is a recipe app targeting 20-30 year olds who are newly living an independent life and are new to cooking. With simple bite sized recipe videos and meal planning, the app helps its users to save a lot of time, develop their cooking skills, all while having delicious meals!" 
+              android:textAppearance="?android:attr/textAppearanceSmall" 
+              android:textColor="#008037" /> 
+    
+</RelativeLayout>
 
