@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" 
-android:layout_height="match_parent" 
-android:padding="10dp" > 
-<TextView 
-android:id="@+id/tvitem" 
-android:layout_width="wrap_content" 
-android:layout_height="wrap_content" 
-android:layout_alignParentTop="true" 
-android:layout_centerHorizontal="true" 
-android:layout_marginTop="30dp" 
-android:text="Breakfast Recipes"
-android:textColor="#008037" 
-android:textAppearance="?android:attr/textAppearanceLarge" /> 
-<Button 
-android:id="@+id/btnrec" 
-android:layout_width="wrap_content" 
-android:layout_height="160dp" 
-android:layout_below="@+id/tvitem" 
-android:layout_centerHorizontal="true" 
-android:layout_marginTop="18dp" 
-android:background="@drawable/ravadosa" 
-android:textColor="#ffffff" 
-android:textSize="26sp" 
-android:text="\n\n\n\nRava Dosa" /> 
-<Button 
-android:id="@+id/btndel" 
-android:layout_width="wrap_content" 
-android:layout_height="160dp" 
-android:layout_below="@+id/btnrec" 
-android:layout_centerHorizontal="true" 
-android:layout_marginTop="18dp" 
-android:background="@drawable/aloosandwich" 
-android:textColor="#ffffff" 
-android:textSize="26sp" 
-android:text="\n\n\n\nAloo Sandwich" /> 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+                    android:layout_width="match_parent" 
+                    android:layout_height="match_parent" 
+                    android:padding="10dp" > 
+        
+    <TextView android:id="@+id/tvitem" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_alignParentTop="true" 
+              android:layout_centerHorizontal="true" 
+              android:layout_marginTop="30dp" 
+              android:text="Breakfast Recipes"
+              android:textColor="#008037" 
+              android:textAppearance="?android:attr/textAppearanceLarge" /> 
+        
+    <Button android:id="@+id/btnrec" 
+            android:layout_width="wrap_content" 
+            android:layout_height="160dp" 
+            android:layout_below="@+id/tvitem" 
+            android:layout_centerHorizontal="true" 
+            android:layout_marginTop="18dp" 
+            android:background="@drawable/ravadosa" 
+            android:textColor="#ffffff" 
+            android:textSize="26sp" 
+            android:text="\n\n\n\nRava Dosa" />
+        
+    <Button android:id="@+id/btndel" 
+            android:layout_width="wrap_content" 
+            android:layout_height="160dp" 
+            android:layout_below="@+id/btnrec" 
+            android:layout_centerHorizontal="true" 
+            android:layout_marginTop="18dp" 
+            android:background="@drawable/aloosandwich" 
+            android:textColor="#ffffff" 
+            android:textSize="26sp" 
+            android:text="\n\n\n\nAloo Sandwich" /> 
+        
 </RelativeLayout> 
 
