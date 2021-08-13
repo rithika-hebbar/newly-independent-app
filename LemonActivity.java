@@ -7,16 +7,17 @@ import android.view.View;
 import android.view.Window; 
 import android.widget.*; 
 public class LemonActivity extends Activity{ 
-TextView itemname; 
-Button mealplan; 
-ProgressBar time; 
-RatingBar ease; 
-String name; 
-protected void onCreate(Bundle savedInstanceState){ 
-super.onCreate(savedInstanceState); 
-requestWindowFeature(Window.FEATURE_NO_TITLE); 
-setContentView(R.layout.activity_lemon); 
-Intent i = getIntent(); 
+    TextView itemname; 
+    Button mealplan; 
+    ProgressBar time; 
+    RatingBar ease; 
+    String name; 
+    
+    protected void onCreate(Bundle savedInstanceState){ 
+        super.onCreate(savedInstanceState); 
+        requestWindowFeature(Window.FEATURE_NO_TITLE); 
+        setContentView(R.layout.activity_lemon); 
+        Intent i = getIntent(); 
 name = i.getExtras().getString("name"); 
 VideoView videoView = (VideoView) findViewById(R.id.videoView1); 
 Uri uri = 
