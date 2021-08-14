@@ -18,30 +18,31 @@ public class LemonActivity extends Activity{
         requestWindowFeature(Window.FEATURE_NO_TITLE); 
         setContentView(R.layout.activity_lemon); 
         Intent i = getIntent(); 
-name = i.getExtras().getString("name"); 
-VideoView videoView = (VideoView) findViewById(R.id.videoView1); 
-Uri uri = 
-Uri.parse("android.resource://com.example.newlyindependent/"+R.raw.lemonrice); videoView.setVideoURI(uri); 
-MediaController mediaController = new MediaController(this); 
-videoView.setMediaController(mediaController); 
-mediaController.setAnchorView(videoView); 
-time = (ProgressBar)findViewById(R.id.progressBar1); 
-time.setMax(60); 
-time.setProgress(15); 
-ease = (RatingBar)findViewById(R.id.ratingBar1); 
-ease.setRating(Float.parseFloat("4")); 
-mealplan = (Button)findViewById(R.id.btnrec); 
-itemname = (TextView)findViewById(R.id.tvitem);
-mealplan.setOnClickListener(new View.OnClickListener() { 
-@Override 
-public void onClick(View arg0) { 
-// TODO Auto-generated method stub 
-String item = itemname.getText().toString(); 
-Intent mi = new 
-Intent(getApplicationContext(),PlanMealActivity.class); mi.putExtra("name", name); 
-mi.putExtra("item", item); 
-startActivity(mi); 
-} 
-}); 
-} 
-} 
+        name = i.getExtras().getString("name"); 
+        VideoView videoView = (VideoView) findViewById(R.id.videoView1); 
+        Uri uri = Uri.parse("android.resource://com.example.newlyindependent/"+R.raw.lemonrice); 
+        videoView.setVideoURI(uri); 
+        MediaController mediaController = new MediaController(this); 
+        videoView.setMediaController(mediaController); 
+        mediaController.setAnchorView(videoView); 
+        time = (ProgressBar)findViewById(R.id.progressBar1); 
+        time.setMax(60); 
+        time.setProgress(15); 
+        ease = (RatingBar)findViewById(R.id.ratingBar1); 
+        ease.setRating(Float.parseFloat("4")); 
+        mealplan = (Button)findViewById(R.id.btnrec); 
+        itemname = (TextView)findViewById(R.id.tvitem);
+        
+        mealplan.setOnClickListener(new View.OnClickListener() { 
+            @Override 
+            public void onClick(View arg0) { 
+                // TODO Auto-generated method stub 
+                String item = itemname.getText().toString(); 
+                Intent mi = new Intent(getApplicationContext(),PlanMealActivity.class); 
+                mi.putExtra("name", name); 
+                mi.putExtra("item", item); 
+                startActivity(mi); 
+            } 
+        }); 
+    } 
+}
