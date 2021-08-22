@@ -22,15 +22,15 @@
               android:textAppearance="?android:attr/textAppearanceMedium" /> 
     
     <ProgressBar android:id="@+id/progressBar1" 
-style="?android:attr/progressBarStyleHorizontal" 
-android:layout_width="250dp" 
-android:layout_height="wrap_content" 
-android:layout_below="@+id/tvmeal" 
-android:layout_centerHorizontal="true" /> 
-<TextView 
-android:id="@+id/tvdate" 
-android:layout_width="wrap_content" 
-android:layout_height="wrap_content" 
+                 style="?android:attr/progressBarStyleHorizontal" 
+                 android:layout_width="250dp" 
+                 android:layout_height="wrap_content" 
+                 android:layout_below="@+id/tvmeal" 
+                 android:layout_centerHorizontal="true" /> 
+    
+    <TextView android:id="@+id/tvdate" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
 android:layout_alignLeft="@+id/btnrec" 
 android:layout_below="@+id/progressBar1" 
 android:layout_marginTop="18dp"
