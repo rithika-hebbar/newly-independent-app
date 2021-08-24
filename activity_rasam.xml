@@ -57,8 +57,9 @@
               android:background="#ffde59" 
               android:padding="2dp" 
               android:text="Rasam Rice" 
-              android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#a80936" 
-android:textSize="15sp" /> 
+              android:textAppearance="?android:attr/textAppearanceLarge" 
+              android:textColor="#a80936" 
+              android:textSize="15sp" /> 
 <TextView 
 android:id="@+id/textView4" 
 android:layout_width="wrap_content" 
