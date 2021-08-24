@@ -39,14 +39,15 @@
     <Button android:id="@+id/btnrec" 
             android:layout_width="wrap_content" 
             android:layout_height="wrap_content" 
-android:layout_alignBaseline="@+id/tvitem" 
-android:layout_alignBottom="@+id/tvitem" 
-android:layout_alignParentRight="true" 
-android:layout_marginRight="20dp" 
-android:background="#000000" 
-android:padding="7dp" 
-android:text="Add To Meal Plan" 
-android:textColor="#ffffff" /> 
+            android:layout_alignBaseline="@+id/tvitem" 
+            android:layout_alignBottom="@+id/tvitem" 
+            android:layout_alignParentRight="true" 
+            android:layout_marginRight="20dp" 
+            android:background="#000000" 
+            android:padding="7dp" 
+            android:text="Add To Meal Plan" 
+            android:textColor="#ffffff" /> 
+  
 <TextView 
 android:id="@+id/tvitem" 
 android:layout_width="wrap_content" 
