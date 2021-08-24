@@ -48,17 +48,16 @@
             android:text="Add To Meal Plan" 
             android:textColor="#ffffff" /> 
   
-<TextView 
-android:id="@+id/tvitem" 
-android:layout_width="wrap_content" 
-android:layout_height="wrap_content" 
-android:layout_alignParentTop="true" 
-android:layout_marginTop="17dp" 
-android:layout_toLeftOf="@+id/textView4" 
-android:background="#ffde59" 
-android:padding="2dp" 
-android:text="Rasam Rice" 
-android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#a80936" 
+    <TextView android:id="@+id/tvitem" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_alignParentTop="true" 
+              android:layout_marginTop="17dp" 
+              android:layout_toLeftOf="@+id/textView4" 
+              android:background="#ffde59" 
+              android:padding="2dp" 
+              android:text="Rasam Rice" 
+              android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#a80936" 
 android:textSize="15sp" /> 
 <TextView 
 android:id="@+id/textView4" 
