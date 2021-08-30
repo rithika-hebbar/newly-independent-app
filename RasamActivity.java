@@ -29,20 +29,21 @@ public class RasamActivity extends Activity{
         time = (ProgressBar)findViewById(R.id.progressBar1); 
         time.setMax(60); 
         time.setProgress(20); 
-ease = (RatingBar)findViewById(R.id.ratingBar1); 
-ease.setRating(Float.parseFloat("4.5")); 
-mealplan = (Button)findViewById(R.id.btnrec); 
-itemname = (TextView)findViewById(R.id.tvitem); 
-mealplan.setOnClickListener(new View.OnClickListener() { 
-@Override 
-public void onClick(View arg0) { 
-// TODO Auto-generated method stub 
-String item = itemname.getText().toString(); 
-Intent mi = new 
-Intent(getApplicationContext(),PlanMealActivity.class); mi.putExtra("name", name); 
-mi.putExtra("item", item); 
-startActivity(mi); 
-} 
-}); 
-} 
+        ease = (RatingBar)findViewById(R.id.ratingBar1); 
+        ease.setRating(Float.parseFloat("4.5")); 
+        mealplan = (Button)findViewById(R.id.btnrec); 
+        itemname = (TextView)findViewById(R.id.tvitem);
+        
+        mealplan.setOnClickListener(new View.OnClickListener() { 
+            @Override 
+            public void onClick(View arg0) { 
+                // TODO Auto-generated method stub 
+                String item = itemname.getText().toString(); 
+                Intent mi = new Intent(getApplicationContext(),PlanMealActivity.class); 
+                mi.putExtra("name", name); 
+                mi.putExtra("item", item); 
+                startActivity(mi); 
+            } 
+        }); 
+    } 
 }
