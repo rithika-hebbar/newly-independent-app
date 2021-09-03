@@ -8,9 +8,9 @@
               android:layout_width="wrap_content" 
               android:layout_height="wrap_content" 
               android:layout_alignParentTop="true" 
-android:layout_centerHorizontal="true" 
-android:layout_marginTop="30dp" 
-android:text="Dinner Recipes" 
+              android:layout_centerHorizontal="true" 
+              android:layout_marginTop="30dp" 
+              android:text="Dinner Recipes" 
 android:textColor="#008037" 
 android:textAppearance="?android:attr/textAppearanceLarge" />
 <Button 
