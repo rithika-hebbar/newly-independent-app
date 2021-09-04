@@ -20,9 +20,10 @@
             android:layout_below="@+id/tvitem"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="18dp" 
-android:background="@drawable/chapati" android:textColor="#ffffff" 
-android:textSize="26sp" 
-android:text="\n\n\n\nChapati" /> 
+            android:background="@drawable/chapati"
+            android:textColor="#ffffff" 
+            android:textSize="26sp" 
+            android:text="\n\n\n\nChapati" /> 
 <Button 
 android:id="@+id/btndel" 
 android:layout_width="wrap_content" android:layout_height="160dp" 
