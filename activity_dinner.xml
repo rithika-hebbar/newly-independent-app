@@ -24,7 +24,8 @@
             android:textColor="#ffffff" 
             android:textSize="26sp" 
             android:text="\n\n\n\nChapati" /> 
-<Button 
+    
+    <Button 
 android:id="@+id/btndel" 
 android:layout_width="wrap_content" android:layout_height="160dp" 
 android:layout_below="@+id/btnrec" android:layout_centerHorizontal="true" android:layout_marginTop="18dp" 
