@@ -25,8 +25,7 @@
             android:textSize="26sp" 
             android:text="\n\n\n\nChapati" /> 
     
-    <Button 
-android:id="@+id/btndel" 
+    <Button android:id="@+id/btndel" 
 android:layout_width="wrap_content" android:layout_height="160dp" 
 android:layout_below="@+id/btnrec" android:layout_centerHorizontal="true" android:layout_marginTop="18dp" 
 android:background="@drawable/upma" android:textColor="#000000" 
