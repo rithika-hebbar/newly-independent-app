@@ -31,7 +31,8 @@
             android:layout_below="@+id/btnrec"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="18dp" 
-android:background="@drawable/upma" android:textColor="#000000" 
+            android:background="@drawable/upma"
+            android:textColor="#000000" 
 android:textSize="26sp" 
 android:text="\n\n\n\nUpma" /> 
 </RelativeLayout> 
