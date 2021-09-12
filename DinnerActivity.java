@@ -6,18 +6,20 @@ import android.os.Bundle;
 import android.view.Menu; 
 import android.view.MenuInflater; 
 import android.view.View; 
-import android.widget.*; 
+import android.widget.*;
+
 public class DinnerActivity extends Activity{
-String name; 
-Button chapati, upma; 
-protected void onCreate(Bundle savedInstanceState){ 
-super.onCreate(savedInstanceState); 
-setContentView(R.layout.activity_dinner); 
-ActionBar ab = getActionBar(); 
-ab.setDisplayHomeAsUpEnabled(true); 
-Intent i = getIntent(); 
-name = i.getExtras().getString("name"); 
-chapati = (Button)findViewById(R.id.btnrec); 
+    String name; 
+    Button chapati, upma;
+    
+    protected void onCreate(Bundle savedInstanceState){ 
+        super.onCreate(savedInstanceState); 
+        setContentView(R.layout.activity_dinner); 
+        ActionBar ab = getActionBar(); 
+        ab.setDisplayHomeAsUpEnabled(true); 
+        Intent i = getIntent(); 
+        name = i.getExtras().getString("name"); 
+        chapati = (Button)findViewById(R.id.btnrec); 
 upma = (Button)findViewById(R.id.btndel); 
 chapati.setOnClickListener(new View.OnClickListener() { 
 @Override 
