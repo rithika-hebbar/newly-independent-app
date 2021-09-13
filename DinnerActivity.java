@@ -23,7 +23,7 @@ public class DinnerActivity extends Activity{
         upma = (Button)findViewById(R.id.btndel);
         
         chapati.setOnClickListener(new View.OnClickListener() { 
-@Override 
+            @Override 
 public void onClick(View arg0) { 
 // TODO Auto-generated method stub 
 Intent i = new Intent(getApplicationContext(), 
