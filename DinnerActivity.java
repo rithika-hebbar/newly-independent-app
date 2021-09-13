@@ -26,8 +26,7 @@ public class DinnerActivity extends Activity{
             @Override 
             public void onClick(View arg0) { 
                 // TODO Auto-generated method stub 
-                Intent i = new Intent(getApplicationContext(), 
-ChapatiActivity.class); 
+                Intent i = new Intent(getApplicationContext(), ChapatiActivity.class); 
 i.putExtra("name", name); 
 startActivity(i); 
 } 
