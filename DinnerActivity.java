@@ -24,9 +24,9 @@ public class DinnerActivity extends Activity{
         
         chapati.setOnClickListener(new View.OnClickListener() { 
             @Override 
-public void onClick(View arg0) { 
-// TODO Auto-generated method stub 
-Intent i = new Intent(getApplicationContext(), 
+            public void onClick(View arg0) { 
+                // TODO Auto-generated method stub 
+                Intent i = new Intent(getApplicationContext(), 
 ChapatiActivity.class); 
 i.putExtra("name", name); 
 startActivity(i); 
