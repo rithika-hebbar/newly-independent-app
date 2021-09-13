@@ -20,7 +20,8 @@ public class DinnerActivity extends Activity{
         Intent i = getIntent(); 
         name = i.getExtras().getString("name"); 
         chapati = (Button)findViewById(R.id.btnrec); 
-        upma = (Button)findViewById(R.id.btndel); 
+        upma = (Button)findViewById(R.id.btndel);
+        
         chapati.setOnClickListener(new View.OnClickListener() { 
 @Override 
 public void onClick(View arg0) { 
