@@ -37,11 +37,11 @@ public class DinnerActivity extends Activity{
             public void onClick(View arg0) { 
                 // TODO Auto-generated method stub 
                 Intent i = new Intent(getApplicationContext(), UpmaActivity.class); 
-i.putExtra("name", name); 
-startActivity(i); 
-} 
-});
-} 
+                i.putExtra("name", name); 
+                startActivity(i); 
+            } 
+        });
+    } 
 public boolean onCreateOptionsMenu(Menu menu){ 
 MenuInflater inflater = getMenuInflater(); 
 inflater.inflate(R.menu.options, menu); 
