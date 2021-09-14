@@ -30,13 +30,13 @@ public class DinnerActivity extends Activity{
                 i.putExtra("name", name); 
                 startActivity(i); 
             } 
-}); 
-upma.setOnClickListener(new View.OnClickListener() { 
-@Override 
-public void onClick(View arg0) { 
-// TODO Auto-generated method stub 
-Intent i = new Intent(getApplicationContext(), 
-UpmaActivity.class); 
+        });
+        
+        upma.setOnClickListener(new View.OnClickListener() { 
+            @Override 
+            public void onClick(View arg0) { 
+                // TODO Auto-generated method stub 
+                Intent i = new Intent(getApplicationContext(), UpmaActivity.class); 
 i.putExtra("name", name); 
 startActivity(i); 
 } 
