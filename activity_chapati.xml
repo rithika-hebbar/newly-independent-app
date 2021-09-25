@@ -19,7 +19,7 @@
               android:layout_marginTop="20dp" 
               android:text="Prep Time:" 
               android:textColor="#008037" 
-android:textAppearance="?android:attr/textAppearanceMedium" /> 
+              android:textAppearance="?android:attr/textAppearanceMedium" /> 
 <ProgressBar 
 android:id="@+id/progressBar1" 
 style="?android:attr/progressBarStyleHorizontal" 
