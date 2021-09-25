@@ -16,7 +16,7 @@
               android:layout_height="wrap_content" 
               android:layout_below="@+id/videoView1" 
               android:layout_centerHorizontal="true" 
-android:layout_marginTop="20dp" 
+              android:layout_marginTop="20dp" 
 android:text="Prep Time:" 
 android:textColor="#008037" 
 android:textAppearance="?android:attr/textAppearanceMedium" /> 
