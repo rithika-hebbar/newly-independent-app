@@ -20,9 +20,9 @@
               android:text="Prep Time:" 
               android:textColor="#008037" 
               android:textAppearance="?android:attr/textAppearanceMedium" /> 
-<ProgressBar 
-android:id="@+id/progressBar1" 
-style="?android:attr/progressBarStyleHorizontal" 
+
+    <ProgressBar android:id="@+id/progressBar1" 
+                 style="?android:attr/progressBarStyleHorizontal" 
 android:layout_width="250dp" 
 android:layout_height="wrap_content" 
 android:layout_below="@+id/tvmeal" 
