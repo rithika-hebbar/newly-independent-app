@@ -48,8 +48,7 @@
             android:text="Add To Meal Plan" 
             android:textColor="#ffffff" />
    
-    <TextView 
-android:id="@+id/tvitem" 
+    <TextView android:id="@+id/tvitem" 
 android:layout_width="wrap_content" 
 android:layout_height="wrap_content" 
 android:layout_alignParentTop="true" 
