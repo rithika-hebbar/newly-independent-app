@@ -54,7 +54,7 @@
               android:layout_alignParentTop="true" 
               android:layout_marginTop="17dp" 
               android:layout_toLeftOf="@+id/textView4" 
-android:background="#ffde59" 
+              android:background="#ffde59" 
 android:padding="2dp" 
 android:text="Chapati" 
 android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#a80936" 
