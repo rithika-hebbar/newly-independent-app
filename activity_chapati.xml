@@ -67,7 +67,7 @@
               android:layout_alignLeft="@+id/tvmeal" 
               android:layout_below="@+id/tvdate" 
               android:layout_marginTop="20dp" 
-android:text="Ease Level:" 
+              android:text="Ease Level:" 
 android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#008037" /> 
 <RatingBar 
 android:id="@+id/ratingBar1" 
