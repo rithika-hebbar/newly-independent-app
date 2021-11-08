@@ -1,18 +1,20 @@
-package com.example.newlyindependent; 
-import android.app.Activity; 
-import android.content.Intent; 
-import android.net.Uri; 
-import android.os.Bundle; 
-import android.view.View; 
-import android.view.Window; 
-import android.widget.*; 
+package com.example.newlyindependent;
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
+import android.widget.*;
+
 public class ChapatiActivity extends Activity{ 
-TextView itemname; 
-Button mealplan; 
-ProgressBar time; 
-RatingBar ease; 
-String name; 
-protected void onCreate(Bundle savedInstanceState){ 
+    TextView itemname; 
+    Button mealplan; 
+    ProgressBar time; 
+    RatingBar ease; 
+    String name; 
+    
+    protected void onCreate(Bundle savedInstanceState){ 
 super.onCreate(savedInstanceState); 
 requestWindowFeature(Window.FEATURE_NO_TITLE); 
 setContentView(R.layout.activity_chapati); 
