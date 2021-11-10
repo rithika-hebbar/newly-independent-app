@@ -19,7 +19,7 @@ public class ChapatiActivity extends Activity{
         requestWindowFeature(Window.FEATURE_NO_TITLE); 
         setContentView(R.layout.activity_chapati); 
         Intent i = getIntent(); 
-name = i.getExtras().getString("name"); 
+        name = i.getExtras().getString("name"); 
 VideoView videoView = (VideoView) findViewById(R.id.videoView1); 
 Uri uri = Uri.parse("android.resource://com.example.newlyindependent/"+R.raw.chapavid); videoView.setVideoURI(uri); 
 MediaController mediaController = new MediaController(this); 
