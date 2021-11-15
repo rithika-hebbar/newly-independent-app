@@ -25,7 +25,7 @@ public class ChapatiActivity extends Activity{
         videoView.setVideoURI(uri); 
         MediaController mediaController = new MediaController(this); 
         videoView.setMediaController(mediaController); 
-mediaController.setAnchorView(videoView); 
+        mediaController.setAnchorView(videoView); 
 time = (ProgressBar)findViewById(R.id.progressBar1); 
 time.setMax(60); 
 time.setProgress(30);
