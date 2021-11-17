@@ -28,8 +28,8 @@ public class ChapatiActivity extends Activity{
         mediaController.setAnchorView(videoView); 
         time = (ProgressBar)findViewById(R.id.progressBar1); 
         time.setMax(60); 
-time.setProgress(30);
-ease = (RatingBar)findViewById(R.id.ratingBar1); 
+        time.setProgress(30);
+        ease = (RatingBar)findViewById(R.id.ratingBar1); 
 ease.setRating(Float.parseFloat("3.5")); 
 mealplan = (Button)findViewById(R.id.btnrec); 
 itemname = (TextView)findViewById(R.id.tvitem); 
