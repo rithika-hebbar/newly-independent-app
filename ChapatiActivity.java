@@ -31,7 +31,7 @@ public class ChapatiActivity extends Activity{
         time.setProgress(30);
         ease = (RatingBar)findViewById(R.id.ratingBar1); 
         ease.setRating(Float.parseFloat("3.5")); 
-mealplan = (Button)findViewById(R.id.btnrec); 
+        mealplan = (Button)findViewById(R.id.btnrec); 
 itemname = (TextView)findViewById(R.id.tvitem); 
 mealplan.setOnClickListener(new View.OnClickListener() { 
 @Override 
