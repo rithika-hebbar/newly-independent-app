@@ -32,9 +32,10 @@ public class ChapatiActivity extends Activity{
         ease = (RatingBar)findViewById(R.id.ratingBar1); 
         ease.setRating(Float.parseFloat("3.5")); 
         mealplan = (Button)findViewById(R.id.btnrec); 
-        itemname = (TextView)findViewById(R.id.tvitem); 
+        itemname = (TextView)findViewById(R.id.tvitem);
+        
         mealplan.setOnClickListener(new View.OnClickListener() { 
-@Override 
+        @Override 
 public void onClick(View arg0) { 
 // TODO Auto-generated method stub 
 String item = itemname.getText().toString(); 
