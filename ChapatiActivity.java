@@ -37,7 +37,7 @@ public class ChapatiActivity extends Activity{
         mealplan.setOnClickListener(new View.OnClickListener() { 
         @Override 
             public void onClick(View arg0) { 
-// TODO Auto-generated method stub 
+                // TODO Auto-generated method stub 
 String item = itemname.getText().toString(); 
 Intent mi = new 
 Intent(getApplicationContext(),PlanMealActivity.class); mi.putExtra("name", name); 
