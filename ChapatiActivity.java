@@ -39,7 +39,7 @@ public class ChapatiActivity extends Activity{
             public void onClick(View arg0) { 
                 // TODO Auto-generated method stub 
                 String item = itemname.getText().toString(); 
-                Intent mi = new Intent(getApplicationContext(),PlanMealActivity.class); mi.putExtra("name", name); 
+                Intent mi = new Intent(getApplicationContext(), PlanMealActivity.class); mi.putExtra("name", name); 
 mi.putExtra("item", item); 
 startActivity(mi); 
 } 
