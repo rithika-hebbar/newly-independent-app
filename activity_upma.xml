@@ -1,1 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+android:padding="10dp" > 
+<VideoView 
+android:id="@+id/videoView1" 
+android:layout_width="320dp" 
+android:layout_height="180dp" 
+android:layout_below="@+id/btnrec"
+android:layout_centerHorizontal="true" 
+android:layout_marginTop="28dp" /> 
+<TextView 
+android:id="@+id/tvmeal" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_below="@+id/videoView1" 
+android:layout_centerHorizontal="true" 
+android:layout_marginTop="20dp" 
+android:text="Prep Time:" 
+android:textColor="#008037" 
+android:textAppearance="?android:attr/textAppearanceMedium" /> 
+<ProgressBar 
+android:id="@+id/progressBar1" 
+style="?android:attr/progressBarStyleHorizontal" 
+android:layout_width="250dp" 
+android:layout_height="wrap_content" 
+android:layout_below="@+id/tvmeal" 
+android:layout_centerHorizontal="true" /> 
+<TextView 
+android:id="@+id/tvdate" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignLeft="@+id/btnrec" 
+android:layout_below="@+id/progressBar1" 
+android:layout_marginTop="18dp" 
+android:text="20 mins" /> 
+<Button 
+android:id="@+id/btnrec" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignBaseline="@+id/tvitem" 
+android:layout_alignBottom="@+id/tvitem" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="20dp" 
+android:background="#000000"
+android:padding="7dp" 
+android:text="Add To Meal Plan" 
+android:textColor="#ffffff" /> 
+<TextView 
+android:id="@+id/tvitem" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentTop="true" 
+android:layout_marginTop="17dp" 
+android:layout_toLeftOf="@+id/textView4" 
+android:background="#ffde59" 
+android:padding="2dp" 
+android:text="Upma" 
+android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#a80936" 
+android:textSize="15sp" /> 
+<TextView 
+android:id="@+id/textView4" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignLeft="@+id/tvmeal" 
+android:layout_below="@+id/tvdate" 
+android:layout_marginTop="20dp" 
+android:text="Ease Level:" 
+android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#008037" /> 
+<RatingBar 
+android:id="@+id/ratingBar1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignRight="@+id/progressBar1" 
+android:layout_below="@+id/textView4" 
+android:isIndicator="true" /> 
+</RelativeLayout>
 
