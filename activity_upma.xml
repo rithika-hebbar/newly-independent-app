@@ -6,7 +6,8 @@
     
     <VideoView android:id="@+id/videoView1" 
                android:layout_width="320dp" 
-               android:layout_height="180dp" android:layout_below="@+id/btnrec"
+               android:layout_height="180dp"
+               android:layout_below="@+id/btnrec"
 android:layout_centerHorizontal="true" 
 android:layout_marginTop="28dp" /> 
 <TextView 
