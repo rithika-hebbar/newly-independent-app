@@ -34,7 +34,7 @@
               android:layout_alignLeft="@+id/btnrec" 
               android:layout_below="@+id/progressBar1" 
               android:layout_marginTop="18dp" 
-android:text="20 mins" /> 
+              android:text="20 mins" /> 
 <Button 
 android:id="@+id/btnrec" 
 android:layout_width="wrap_content" 
