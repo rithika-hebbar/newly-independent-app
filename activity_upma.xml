@@ -68,7 +68,8 @@
               android:layout_below="@+id/tvdate" 
               android:layout_marginTop="20dp" 
               android:text="Ease Level:" 
-              android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#008037" /> 
+              android:textAppearance="?android:attr/textAppearanceMedium" 
+              android:textColor="#008037" /> 
 
     <RatingBar android:id="@+id/ratingBar1" 
 android:layout_width="wrap_content" 
