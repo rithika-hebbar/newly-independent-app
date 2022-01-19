@@ -76,6 +76,6 @@
                android:layout_height="wrap_content" 
                android:layout_alignRight="@+id/progressBar1" 
                android:layout_below="@+id/textView4" 
-android:isIndicator="true" /> 
+               android:isIndicator="true" /> 
 </RelativeLayout>
 
