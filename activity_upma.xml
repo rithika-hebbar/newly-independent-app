@@ -78,4 +78,3 @@
                android:layout_below="@+id/textView4" 
                android:isIndicator="true" /> 
 </RelativeLayout>
-
