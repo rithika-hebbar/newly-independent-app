@@ -8,7 +8,7 @@ import android.view.Window;
 import android.widget.*;
 
 public class UpmaActivity extends Activity{ 
-TextView itemname; 
+    TextView itemname; 
 Button mealplan; 
 ProgressBar time; 
 RatingBar ease; 
