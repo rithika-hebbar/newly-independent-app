@@ -10,7 +10,7 @@ import android.widget.*;
 public class UpmaActivity extends Activity{ 
     TextView itemname; 
     Button mealplan; 
-ProgressBar time; 
+    ProgressBar time; 
 RatingBar ease; 
 String name; 
 protected void onCreate(Bundle savedInstanceState){ 
