@@ -11,7 +11,7 @@ public class UpmaActivity extends Activity{
     TextView itemname; 
     Button mealplan; 
     ProgressBar time; 
-RatingBar ease; 
+    RatingBar ease; 
 String name; 
 protected void onCreate(Bundle savedInstanceState){ 
 super.onCreate(savedInstanceState); 
