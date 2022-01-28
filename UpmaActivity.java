@@ -13,7 +13,8 @@ public class UpmaActivity extends Activity{
     ProgressBar time; 
     RatingBar ease; 
     String name; 
-protected void onCreate(Bundle savedInstanceState){ 
+    
+    protected void onCreate(Bundle savedInstanceState){ 
 super.onCreate(savedInstanceState); 
 requestWindowFeature(Window.FEATURE_NO_TITLE); 
 setContentView(R.layout.activity_upma); 
