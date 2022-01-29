@@ -18,7 +18,7 @@ public class UpmaActivity extends Activity{
         super.onCreate(savedInstanceState); 
         requestWindowFeature(Window.FEATURE_NO_TITLE); 
         setContentView(R.layout.activity_upma); 
-Intent i = getIntent(); 
+        Intent i = getIntent(); 
 name = i.getExtras().getString("name"); 
 VideoView videoView = (VideoView) findViewById(R.id.videoView1); 
 Uri uri = Uri.parse("android.resource://com.example.newlyindependent/"+R.raw.upmavid); videoView.setVideoURI(uri); 
