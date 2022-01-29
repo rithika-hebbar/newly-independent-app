@@ -17,7 +17,7 @@ public class UpmaActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState){ 
         super.onCreate(savedInstanceState); 
         requestWindowFeature(Window.FEATURE_NO_TITLE); 
-setContentView(R.layout.activity_upma); 
+        setContentView(R.layout.activity_upma); 
 Intent i = getIntent(); 
 name = i.getExtras().getString("name"); 
 VideoView videoView = (VideoView) findViewById(R.id.videoView1); 
