@@ -21,7 +21,8 @@ public class UpmaActivity extends Activity{
         Intent i = getIntent(); 
         name = i.getExtras().getString("name"); 
         VideoView videoView = (VideoView) findViewById(R.id.videoView1); 
-        Uri uri = Uri.parse("android.resource://com.example.newlyindependent/"+R.raw.upmavid); videoView.setVideoURI(uri); 
+        Uri uri = Uri.parse("android.resource://com.example.newlyindependent/"+R.raw.upmavid); 
+        videoView.setVideoURI(uri); 
 MediaController mediaController = new MediaController(this); 
 videoView.setMediaController(mediaController); 
 mediaController.setAnchorView(videoView); 
