@@ -23,7 +23,7 @@ public class UpmaActivity extends Activity{
         VideoView videoView = (VideoView) findViewById(R.id.videoView1); 
         Uri uri = Uri.parse("android.resource://com.example.newlyindependent/"+R.raw.upmavid); 
         videoView.setVideoURI(uri); 
-MediaController mediaController = new MediaController(this); 
+        MediaController mediaController = new MediaController(this); 
 videoView.setMediaController(mediaController); 
 mediaController.setAnchorView(videoView); 
 time = (ProgressBar)findViewById(R.id.progressBar1); 
