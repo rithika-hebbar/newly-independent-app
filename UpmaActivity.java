@@ -28,7 +28,7 @@ public class UpmaActivity extends Activity{
         mediaController.setAnchorView(videoView); 
         time = (ProgressBar)findViewById(R.id.progressBar1); 
         time.setMax(60); 
-time.setProgress(20);
+        time.setProgress(20);
 ease = (RatingBar)findViewById(R.id.ratingBar1); 
 ease.setRating(Float.parseFloat("4")); 
 mealplan = (Button)findViewById(R.id.btnrec); 
