@@ -32,7 +32,7 @@ public class UpmaActivity extends Activity{
         ease = (RatingBar)findViewById(R.id.ratingBar1); 
         ease.setRating(Float.parseFloat("4")); 
         mealplan = (Button)findViewById(R.id.btnrec); 
-itemname = (TextView)findViewById(R.id.tvitem); 
+        itemname = (TextView)findViewById(R.id.tvitem); 
 mealplan.setOnClickListener(new View.OnClickListener() { 
 @Override 
 public void onClick(View arg0) { 
