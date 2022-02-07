@@ -33,7 +33,7 @@ public class UpmaActivity extends Activity{
         ease.setRating(Float.parseFloat("4")); 
         mealplan = (Button)findViewById(R.id.btnrec); 
         itemname = (TextView)findViewById(R.id.tvitem); 
-mealplan.setOnClickListener(new View.OnClickListener() { 
+        mealplan.setOnClickListener(new View.OnClickListener() { 
 @Override 
 public void onClick(View arg0) { 
 // TODO Auto-generated method stub 
