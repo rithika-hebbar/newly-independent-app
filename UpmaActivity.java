@@ -35,7 +35,7 @@ public class UpmaActivity extends Activity{
         itemname = (TextView)findViewById(R.id.tvitem); 
         
         mealplan.setOnClickListener(new View.OnClickListener() { 
-        @Override 
+            @Override 
         public void onClick(View arg0) { 
 // TODO Auto-generated method stub 
 String item = itemname.getText().toString(); 
