@@ -41,7 +41,7 @@ public class UpmaActivity extends Activity{
                 String item = itemname.getText().toString(); 
                 Intent mi = new Intent(getApplicationContext(),PlanMealActivity.class); 
                 mi.putExtra("name", name); 
-mi.putExtra("item", item); 
+                mi.putExtra("item", item); 
 startActivity(mi); 
 } 
 }); 
