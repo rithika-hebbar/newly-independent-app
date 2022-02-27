@@ -45,6 +45,6 @@ public class UpmaActivity extends Activity{
                 startActivity(mi); 
             } 
         }); 
-} 
+    } 
 }
 
