@@ -47,4 +47,3 @@ public class UpmaActivity extends Activity{
         }); 
     } 
 }
-
