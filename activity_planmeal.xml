@@ -6,7 +6,7 @@
               android:layout_height="wrap_content" 
               android:layout_alignParentTop="true" 
               android:layout_centerHorizontal="true" 
-android:layout_marginTop="50dp" 
+              android:layout_marginTop="50dp" 
 android:text="Plan your meal" 
 android:textColor="#008037" 
 android:textAppearance="?android:attr/textAppearanceLarge" /> 
