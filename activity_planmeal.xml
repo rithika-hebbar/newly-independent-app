@@ -10,8 +10,8 @@
               android:text="Plan your meal" 
               android:textColor="#008037" 
               android:textAppearance="?android:attr/textAppearanceLarge" /> 
-<TextView 
-android:id="@+id/tvmeal" 
+
+    <TextView android:id="@+id/tvmeal" 
 android:layout_width="wrap_content"
 android:layout_height="wrap_content" 
 android:layout_alignParentLeft="true" 
