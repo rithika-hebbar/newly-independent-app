@@ -18,7 +18,7 @@
               android:layout_below="@+id/tvitem" 
               android:layout_marginLeft="34dp" 
               android:layout_marginTop="26dp" 
-android:text="Item: " 
+              android:text="Item: " 
 android:textColor="#a80936" 
 android:textAppearance="?android:attr/textAppearanceMedium" /> 
 <TextView 
