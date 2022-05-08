@@ -20,7 +20,8 @@
               android:layout_marginTop="26dp" 
               android:text="Item: " 
               android:textColor="#a80936" 
-              android:textAppearance="?android:attr/textAppearanceMedium" /> 
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+        
 <TextView 
 android:id="@+id/tvdate" 
 android:layout_width="wrap_content" 
