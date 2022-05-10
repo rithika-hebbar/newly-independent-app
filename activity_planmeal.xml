@@ -24,7 +24,7 @@
         
     <TextView android:id="@+id/tvdate" 
               android:layout_width="wrap_content" 
-android:layout_height="wrap_content" 
+              android:layout_height="wrap_content" 
 android:layout_alignBaseline="@+id/tvmeal" 
 android:layout_alignBottom="@+id/tvmeal" 
 android:layout_alignLeft="@+id/tvitem" 
