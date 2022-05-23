@@ -46,7 +46,7 @@
               android:layout_below="@+id/tvmeal" 
               android:layout_marginTop="14dp" 
               android:text="Meal: " 
-android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#a80936" /> 
+              android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#a80936" /> 
 <Button 
 android:id="@+id/btnrec" 
 android:layout_width="wrap_content"
