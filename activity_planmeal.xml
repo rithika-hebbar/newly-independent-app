@@ -57,7 +57,7 @@
             android:layout_marginBottom="35dp" 
             android:background="#000000" 
             android:text="Save" 
-android:textColor="#ffffff" /> 
+            android:textColor="#ffffff" /> 
 <DatePicker 
 android:id="@+id/datePicker1" 
 android:layout_width="wrap_content" 
