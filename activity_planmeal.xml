@@ -56,7 +56,7 @@
             android:layout_centerHorizontal="true" 
             android:layout_marginBottom="35dp" 
             android:background="#000000" 
-android:text="Save" 
+            android:text="Save" 
 android:textColor="#ffffff" /> 
 <DatePicker 
 android:id="@+id/datePicker1" 
