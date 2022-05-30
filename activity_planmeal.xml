@@ -58,7 +58,8 @@
             android:background="#000000" 
             android:text="Save" 
             android:textColor="#ffffff" /> 
-<DatePicker 
+
+    <DatePicker 
 android:id="@+id/datePicker1" 
 android:layout_width="wrap_content" 
 android:layout_height="wrap_content" 
