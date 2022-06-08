@@ -73,6 +73,6 @@
               android:layout_height="wrap_content" 
               android:layout_alignLeft="@+id/textView4" 
               android:layout_below="@+id/spinner1" 
-android:text="Date: " 
+              android:text="Date: " 
 android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#a80936" /> 
 </RelativeLayout> 
