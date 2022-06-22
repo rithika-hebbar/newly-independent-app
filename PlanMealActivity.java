@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.Window; 
 import android.widget.*; 
 import android.widget.AdapterView.OnItemSelectedListener;
+
 public class PlanMealActivity extends Activity{ 
 String name, item; 
 TextView itemtv; 
