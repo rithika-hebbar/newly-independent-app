@@ -10,7 +10,7 @@ import android.widget.AdapterView.OnItemSelectedListener;
 
 public class PlanMealActivity extends Activity{ 
     String name, item; 
-TextView itemtv; 
+    TextView itemtv; 
 Button save; 
 Spinner meal; 
 DatePicker date; 
