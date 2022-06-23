@@ -12,7 +12,7 @@ public class PlanMealActivity extends Activity{
     String name, item; 
     TextView itemtv; 
     Button save; 
-Spinner meal; 
+    Spinner meal; 
 DatePicker date; 
 String [] meals = { "Breakfast", "Lunch", "Dinner" }; 
 String dbname, dbitem, dbmeal, dbdate; 
