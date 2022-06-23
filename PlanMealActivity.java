@@ -9,7 +9,7 @@ import android.widget.*;
 import android.widget.AdapterView.OnItemSelectedListener;
 
 public class PlanMealActivity extends Activity{ 
-String name, item; 
+    String name, item; 
 TextView itemtv; 
 Button save; 
 Spinner meal; 
