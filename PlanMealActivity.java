@@ -15,7 +15,7 @@ public class PlanMealActivity extends Activity{
     Spinner meal; 
     DatePicker date; 
     String [] meals = { "Breakfast", "Lunch", "Dinner" }; 
-String dbname, dbitem, dbmeal, dbdate; 
+    String dbname, dbitem, dbmeal, dbdate; 
 MealDataHelper mydb; 
 protected void onCreate(Bundle savedInstanceState){ 
 super.onCreate(savedInstanceState); 
