@@ -14,7 +14,7 @@ public class PlanMealActivity extends Activity{
     Button save; 
     Spinner meal; 
     DatePicker date; 
-String [] meals = { "Breakfast", "Lunch", "Dinner" }; 
+    String [] meals = { "Breakfast", "Lunch", "Dinner" }; 
 String dbname, dbitem, dbmeal, dbdate; 
 MealDataHelper mydb; 
 protected void onCreate(Bundle savedInstanceState){ 
