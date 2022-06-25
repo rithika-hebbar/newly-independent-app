@@ -16,7 +16,7 @@ public class PlanMealActivity extends Activity{
     DatePicker date; 
     String [] meals = { "Breakfast", "Lunch", "Dinner" }; 
     String dbname, dbitem, dbmeal, dbdate; 
-MealDataHelper mydb; 
+    MealDataHelper mydb; 
 protected void onCreate(Bundle savedInstanceState){ 
 super.onCreate(savedInstanceState); 
 requestWindowFeature(Window.FEATURE_NO_TITLE); 
