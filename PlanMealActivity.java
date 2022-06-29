@@ -22,7 +22,7 @@ public class PlanMealActivity extends Activity{
         super.onCreate(savedInstanceState); 
         requestWindowFeature(Window.FEATURE_NO_TITLE); 
         setContentView(R.layout.activity_planmeal); 
-Intent i = getIntent(); 
+        Intent i = getIntent(); 
 name = i.getExtras().getString("name"); 
 item = i.getExtras().getString("item"); 
 dbname = name; 
