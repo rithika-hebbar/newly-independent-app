@@ -25,7 +25,7 @@ public class PlanMealActivity extends Activity{
         Intent i = getIntent(); 
         name = i.getExtras().getString("name"); 
         item = i.getExtras().getString("item"); 
-dbname = name; 
+        dbname = name; 
 itemtv = (TextView)findViewById(R.id.tvdate); 
 itemtv.setText(item); 
 dbitem = item; 
