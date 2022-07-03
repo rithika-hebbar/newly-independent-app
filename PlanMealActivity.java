@@ -23,7 +23,7 @@ public class PlanMealActivity extends Activity{
         requestWindowFeature(Window.FEATURE_NO_TITLE); 
         setContentView(R.layout.activity_planmeal); 
         Intent i = getIntent(); 
-name = i.getExtras().getString("name"); 
+        name = i.getExtras().getString("name"); 
 item = i.getExtras().getString("item"); 
 dbname = name; 
 itemtv = (TextView)findViewById(R.id.tvdate); 
