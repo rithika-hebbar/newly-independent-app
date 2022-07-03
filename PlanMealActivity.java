@@ -24,7 +24,7 @@ public class PlanMealActivity extends Activity{
         setContentView(R.layout.activity_planmeal); 
         Intent i = getIntent(); 
         name = i.getExtras().getString("name"); 
-item = i.getExtras().getString("item"); 
+        item = i.getExtras().getString("item"); 
 dbname = name; 
 itemtv = (TextView)findViewById(R.id.tvdate); 
 itemtv.setText(item); 
