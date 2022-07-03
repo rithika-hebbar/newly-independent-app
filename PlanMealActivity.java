@@ -26,7 +26,7 @@ public class PlanMealActivity extends Activity{
         name = i.getExtras().getString("name"); 
         item = i.getExtras().getString("item"); 
         dbname = name; 
-itemtv = (TextView)findViewById(R.id.tvdate); 
+        itemtv = (TextView)findViewById(R.id.tvdate); 
 itemtv.setText(item); 
 dbitem = item; 
 save = (Button)findViewById(R.id.btnrec); 
