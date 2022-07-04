@@ -27,8 +27,8 @@ public class PlanMealActivity extends Activity{
         item = i.getExtras().getString("item"); 
         dbname = name; 
         itemtv = (TextView)findViewById(R.id.tvdate); 
-itemtv.setText(item); 
-dbitem = item; 
+        itemtv.setText(item); 
+      dbitem = item; 
 save = (Button)findViewById(R.id.btnrec); 
 meal = (Spinner)findViewById(R.id.spinner1); 
 date = (DatePicker)findViewById(R.id.datePicker1); 
