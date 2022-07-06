@@ -32,7 +32,7 @@ public class PlanMealActivity extends Activity{
         save = (Button)findViewById(R.id.btnrec); 
         meal = (Spinner)findViewById(R.id.spinner1); 
         date = (DatePicker)findViewById(R.id.datePicker1); 
-mydb = new MealDataHelper(this); 
+        mydb = new MealDataHelper(this); 
 ArrayAdapter<String> a = new ArrayAdapter<String>(this, 
 android.R.layout.simple_spinner_item, meals); 
 meal.setAdapter(a); 
