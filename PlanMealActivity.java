@@ -35,7 +35,7 @@ public class PlanMealActivity extends Activity{
         mydb = new MealDataHelper(this); 
         ArrayAdapter<String> a = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, meals); 
         meal.setAdapter(a); 
-meal.setOnItemSelectedListener(new OnItemSelectedListener(){ 
+        meal.setOnItemSelectedListener(new OnItemSelectedListener(){ 
 @Override 
 public void onItemSelected(AdapterView<?> arg0, View arg1,
 int arg2, long arg3) { 
