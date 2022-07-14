@@ -37,7 +37,7 @@ public class PlanMealActivity extends Activity{
         meal.setAdapter(a);
         
         meal.setOnItemSelectedListener(new OnItemSelectedListener(){ 
-        @Override 
+            @Override 
             public void onItemSelected(AdapterView<?> arg0, View arg1,
 int arg2, long arg3) { 
 // TODO Auto-generated method stub 
