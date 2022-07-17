@@ -40,7 +40,7 @@ public class PlanMealActivity extends Activity{
             @Override 
             public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) { 
                 // TODO Auto-generated method stub 
-int index = meal.getSelectedItemPosition(); 
+                int index = meal.getSelectedItemPosition(); 
 dbmeal = meals[index]; 
 } 
 @Override 
