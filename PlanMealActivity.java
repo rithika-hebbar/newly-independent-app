@@ -51,7 +51,7 @@ public class PlanMealActivity extends Activity{
         });
         
         save.setOnClickListener(new View.OnClickListener() { 
-@Override 
+            @Override 
 public void onClick(View arg0) { 
 // TODO Auto-generated method stub 
 dbdate = getDate(); 
