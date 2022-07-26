@@ -42,7 +42,7 @@ public class PlanMealActivity extends Activity{
                 // TODO Auto-generated method stub 
                 int index = meal.getSelectedItemPosition(); 
                 dbmeal = meals[index]; 
-} 
+            } 
 @Override 
 public void onNothingSelected(AdapterView<?> arg0) { 
 // TODO Auto-generated method stub 
