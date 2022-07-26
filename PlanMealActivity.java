@@ -52,7 +52,7 @@ public class PlanMealActivity extends Activity{
         
         save.setOnClickListener(new View.OnClickListener() { 
             @Override 
-public void onClick(View arg0) { 
+            public void onClick(View arg0) { 
 // TODO Auto-generated method stub 
 dbdate = getDate(); 
 Boolean ins = mydb.insertMeal(dbname, dbitem, dbmeal, dbdate); 
