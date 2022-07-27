@@ -54,7 +54,7 @@ public class PlanMealActivity extends Activity{
             @Override 
             public void onClick(View arg0) { 
                 // TODO Auto-generated method stub 
-dbdate = getDate(); 
+                dbdate = getDate(); 
 Boolean ins = mydb.insertMeal(dbname, dbitem, dbmeal, dbdate); 
 if(ins){ 
 Toast.makeText(PlanMealActivity.this, "Added to 
