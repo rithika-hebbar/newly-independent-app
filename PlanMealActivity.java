@@ -59,7 +59,7 @@ public class PlanMealActivity extends Activity{
                 
                 if(ins){ 
                     Toast.makeText(PlanMealActivity.this, "Added to planner!", Toast.LENGTH_SHORT).show(); 
-Intent mpi = new Intent(getApplicationContext(), 
+                    Intent mpi = new Intent(getApplicationContext(), 
 HomeActivity.class); 
 mpi.putExtra("name", dbname); 
 startActivity(mpi); 
