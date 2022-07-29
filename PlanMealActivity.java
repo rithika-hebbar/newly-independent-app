@@ -55,7 +55,7 @@ public class PlanMealActivity extends Activity{
             public void onClick(View arg0) { 
                 // TODO Auto-generated method stub 
                 dbdate = getDate(); 
-Boolean ins = mydb.insertMeal(dbname, dbitem, dbmeal, dbdate); 
+                Boolean ins = mydb.insertMeal(dbname, dbitem, dbmeal, dbdate); 
 if(ins){ 
 Toast.makeText(PlanMealActivity.this, "Added to 
 planner!", Toast.LENGTH_SHORT).show(); 
