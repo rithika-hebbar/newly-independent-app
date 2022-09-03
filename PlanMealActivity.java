@@ -62,7 +62,7 @@ public class PlanMealActivity extends Activity{
                     Intent mpi = new Intent(getApplicationContext(), HomeActivity.class); 
                     mpi.putExtra("name", dbname); 
                     startActivity(mpi); 
-}else{ 
+                }else{ 
 Toast.makeText(PlanMealActivity.this, "Failed to add!", 
 Toast.LENGTH_SHORT).show(); 
 } 
