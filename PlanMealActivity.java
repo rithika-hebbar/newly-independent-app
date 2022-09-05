@@ -64,7 +64,7 @@ public class PlanMealActivity extends Activity{
                     startActivity(mpi); 
                 }else{ 
                     Toast.makeText(PlanMealActivity.this, "Failed to add!", Toast.LENGTH_SHORT).show(); 
-} 
+                } 
 } 
 }); 
 } 
