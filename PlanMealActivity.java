@@ -63,8 +63,7 @@ public class PlanMealActivity extends Activity{
                     mpi.putExtra("name", dbname); 
                     startActivity(mpi); 
                 }else{ 
-                    Toast.makeText(PlanMealActivity.this, "Failed to add!", 
-Toast.LENGTH_SHORT).show(); 
+                    Toast.makeText(PlanMealActivity.this, "Failed to add!", Toast.LENGTH_SHORT).show(); 
 } 
 } 
 }); 
