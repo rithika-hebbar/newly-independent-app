@@ -65,8 +65,8 @@ public class PlanMealActivity extends Activity{
                 }else{ 
                     Toast.makeText(PlanMealActivity.this, "Failed to add!", Toast.LENGTH_SHORT).show(); 
                 } 
-} 
-}); 
+            } 
+        }); 
 } 
 public String getDate(){ 
 StringBuffer data = new StringBuffer(); 
