@@ -69,7 +69,7 @@ public class PlanMealActivity extends Activity{
         }); 
     }
     
-public String getDate(){ 
+    public String getDate(){ 
 StringBuffer data = new StringBuffer(); 
 data.append((date.getMonth()+1)+"/");
 data.append(date.getDayOfMonth()+"/"); 
