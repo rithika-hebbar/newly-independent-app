@@ -74,6 +74,6 @@ public class PlanMealActivity extends Activity{
         data.append((date.getMonth()+1)+"/");
         data.append(date.getDayOfMonth()+"/"); 
         data.append(date.getYear()); 
-return data.toString(); 
+        return data.toString(); 
 } 
 } 
