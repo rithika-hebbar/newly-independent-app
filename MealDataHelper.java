@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class MealDataHelper extends SQLiteOpenHelper {
-public static final String DB_NAME = "mealplans.db"; 
+    public static final String DB_NAME = "mealplans.db"; 
 public MealDataHelper(Context context) { 
 super(context, DB_NAME, null, 1); 
 // TODO Auto-generated constructor stub 
