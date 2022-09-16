@@ -15,7 +15,7 @@ public class MealDataHelper extends SQLiteOpenHelper {
     
     @Override 
     public void onCreate(SQLiteDatabase mydb) { 
-// TODO Auto-generated method stub 
+        // TODO Auto-generated method stub 
 mydb.execSQL("CREATE TABLE mealplan( _id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, item TEXT, meal TEXT, date TEXT)"); } 
 @Override 
 public void onUpgrade(SQLiteDatabase mydb, int arg1, int arg2) { 
