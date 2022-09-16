@@ -11,7 +11,7 @@ public class MealDataHelper extends SQLiteOpenHelper {
     public MealDataHelper(Context context) { 
         super(context, DB_NAME, null, 1); 
         // TODO Auto-generated constructor stub 
-} 
+    } 
 @Override 
 public void onCreate(SQLiteDatabase mydb) { 
 // TODO Auto-generated method stub 
