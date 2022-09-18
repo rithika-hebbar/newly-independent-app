@@ -20,7 +20,7 @@ public class MealDataHelper extends SQLiteOpenHelper {
     } 
 
     @Override 
-public void onUpgrade(SQLiteDatabase mydb, int arg1, int arg2) { 
+    public void onUpgrade(SQLiteDatabase mydb, int arg1, int arg2) { 
 // TODO Auto-generated method stub 
 mydb.execSQL("DROP TABLE IF EXISTS mealplan"); 
 onCreate(mydb); 
