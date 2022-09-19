@@ -23,7 +23,7 @@ public class MealDataHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase mydb, int arg1, int arg2) { 
         // TODO Auto-generated method stub 
         mydb.execSQL("DROP TABLE IF EXISTS mealplan"); 
-onCreate(mydb); 
+        onCreate(mydb); 
 } 
 public Boolean insertMeal(String name, String item, String meal, String date){ SQLiteDatabase mydb = this.getWritableDatabase(); 
 ContentValues cv = new ContentValues(); 
