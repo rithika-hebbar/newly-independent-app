@@ -26,7 +26,8 @@ public class MealDataHelper extends SQLiteOpenHelper {
         onCreate(mydb); 
     }
     
-    public Boolean insertMeal(String name, String item, String meal, String date){ SQLiteDatabase mydb = this.getWritableDatabase(); 
+    public Boolean insertMeal(String name, String item, String meal, String date){ 
+        SQLiteDatabase mydb = this.getWritableDatabase(); 
 ContentValues cv = new ContentValues(); 
 cv.put("username", name); 
 cv.put("item", item); 
