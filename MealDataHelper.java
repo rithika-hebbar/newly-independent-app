@@ -30,7 +30,7 @@ public class MealDataHelper extends SQLiteOpenHelper {
         SQLiteDatabase mydb = this.getWritableDatabase(); 
         ContentValues cv = new ContentValues(); 
         cv.put("username", name); 
-cv.put("item", item); 
+        cv.put("item", item); 
 cv.put("meal", meal); 
 cv.put("date", date); 
 long result = mydb.insert("mealplan", null, cv); 
