@@ -33,7 +33,7 @@ public class MealDataHelper extends SQLiteOpenHelper {
         cv.put("item", item); 
         cv.put("meal", meal); 
         cv.put("date", date); 
-long result = mydb.insert("mealplan", null, cv); 
+        long result = mydb.insert("mealplan", null, cv); 
 if(result==-1) return false; 
 else return true; 
 } 
