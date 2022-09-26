@@ -35,7 +35,7 @@ public class MealDataHelper extends SQLiteOpenHelper {
         cv.put("date", date); 
         long result = mydb.insert("mealplan", null, cv); 
         if(result==-1) return false; 
-else return true; 
+        else return true; 
 } 
 public Cursor getAllRows(String name){ 
 SQLiteDatabase db = this.getReadableDatabase(); 
