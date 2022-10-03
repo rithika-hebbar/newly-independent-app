@@ -45,7 +45,7 @@ public class MealDataHelper extends SQLiteOpenHelper {
     }
 
     public Cursor getRow(long id){ 
-SQLiteDatabase db = this.getReadableDatabase(); 
+        SQLiteDatabase db = this.getReadableDatabase(); 
 Cursor result = db.rawQuery("SELECT * FROM mealplan WHERE _id = ?", new String[]{String.valueOf(id)}); 
 return result; 
 } 
