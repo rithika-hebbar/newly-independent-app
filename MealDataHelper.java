@@ -54,5 +54,4 @@ public class MealDataHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase(); 
         return db.delete("mealplan", "_id = ?", new String[]{id}); 
     } 
-} 
-
+}
