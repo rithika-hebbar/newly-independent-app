@@ -48,7 +48,8 @@ public class MealDataHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase(); 
         Cursor result = db.rawQuery("SELECT * FROM mealplan WHERE _id = ?", new String[]{String.valueOf(id)}); 
         return result; 
-    } 
+    }
+    
 public Integer deletePlan(String id){ 
 SQLiteDatabase db = this.getWritableDatabase(); 
 return db.delete("mealplan", "_id = ?", new String[]{id}); 
