@@ -7,8 +7,7 @@
         <TextView android:id="@+id/tvitem" 
                   android:layout_width="wrap_content" 
                   android:layout_height="wrap_content" 
-                  android:layout_alignParentLeft="true" 
-android:layout_alignParentTop="true" 
+                  android:layout_alignParentLeft="true" android:layout_alignParentTop="true" 
 android:text="My Meal Plan" 
 android:textColor="#a80936" 
 android:textAppearance="?android:attr/textAppearanceLarge" /> 
