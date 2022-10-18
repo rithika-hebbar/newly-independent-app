@@ -11,7 +11,7 @@
                   android:layout_alignParentTop="true" 
                   android:text="My Meal Plan" 
                   android:textColor="#a80936" 
-android:textAppearance="?android:attr/textAppearanceLarge" /> 
+                  android:textAppearance="?android:attr/textAppearanceLarge" /> 
 <ListView 
 android:id="@+id/listView1" 
 android:layout_width="match_parent" 
