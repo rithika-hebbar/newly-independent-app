@@ -12,7 +12,8 @@
                   android:text="My Meal Plan" 
                   android:textColor="#a80936" 
                   android:textAppearance="?android:attr/textAppearanceLarge" /> 
-<ListView 
+
+        <ListView 
 android:id="@+id/listView1" 
 android:layout_width="match_parent" 
 android:layout_height="400dp" 
