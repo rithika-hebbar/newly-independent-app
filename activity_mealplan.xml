@@ -14,7 +14,7 @@
                   android:textAppearance="?android:attr/textAppearanceLarge" /> 
 
         <ListView android:id="@+id/listView1" 
-android:layout_width="match_parent" 
+                  android:layout_width="match_parent" 
 android:layout_height="400dp" 
 android:layout_alignLeft="@+id/tvitem" 
 android:layout_alignParentBottom="true" 
