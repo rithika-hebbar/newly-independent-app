@@ -1,4 +1,5 @@
-package com.example.newlyindependent; 
+package com.example.newlyindependent;
+
 import android.app.Activity; 
 import android.content.Intent; 
 import android.database.Cursor; 
