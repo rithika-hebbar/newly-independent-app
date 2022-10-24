@@ -8,7 +8,8 @@ import android.view.View;
 import android.view.Window; 
 import android.widget.AdapterView; 
 import android.widget.ListView; 
-import android.widget.SimpleCursorAdapter; 
+import android.widget.SimpleCursorAdapter;
+
 public class MealPlanActivity extends Activity{ 
 String name; 
 MealDataHelper mydb; 
