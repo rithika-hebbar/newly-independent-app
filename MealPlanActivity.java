@@ -12,7 +12,7 @@ import android.widget.SimpleCursorAdapter;
 
 public class MealPlanActivity extends Activity{ 
     String name; 
-  MealDataHelper mydb; 
+MealDataHelper mydb; 
 protected void onCreate(Bundle savedInstanceState){ 
 super.onCreate(savedInstanceState); 
 requestWindowFeature(Window.FEATURE_NO_TITLE); setContentView(R.layout.activity_mealplan); 
