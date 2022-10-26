@@ -11,7 +11,7 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
 public class MealPlanActivity extends Activity{ 
-String name; 
+  String name; 
 MealDataHelper mydb; 
 protected void onCreate(Bundle savedInstanceState){ 
 super.onCreate(savedInstanceState); 
