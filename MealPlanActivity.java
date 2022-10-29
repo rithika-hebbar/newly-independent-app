@@ -18,7 +18,8 @@ public class MealPlanActivity extends Activity{
         super.onCreate(savedInstanceState); 
         requestWindowFeature(Window.FEATURE_NO_TITLE); 
         setContentView(R.layout.activity_mealplan); 
-        mydb = new MealDataHelper(this); Intent i = getIntent(); 
+        mydb = new MealDataHelper(this); 
+        Intent i = getIntent(); 
 name = i.getExtras().getString("name"); 
 populateListView(); 
 listViewClick(); 
