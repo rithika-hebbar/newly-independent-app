@@ -20,7 +20,7 @@ public class MealPlanActivity extends Activity{
         setContentView(R.layout.activity_mealplan); 
         mydb = new MealDataHelper(this); 
         Intent i = getIntent(); 
-name = i.getExtras().getString("name"); 
+        name = i.getExtras().getString("name"); 
 populateListView(); 
 listViewClick(); 
 } 
