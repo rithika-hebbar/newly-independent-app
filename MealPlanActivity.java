@@ -22,7 +22,7 @@ public class MealPlanActivity extends Activity{
         Intent i = getIntent(); 
         name = i.getExtras().getString("name"); 
         populateListView(); 
-listViewClick(); 
+        listViewClick(); 
 } 
 public void populateListView(){ 
 Cursor result = mydb.getAllRows(name); 
