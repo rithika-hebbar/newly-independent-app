@@ -23,7 +23,8 @@ public class MealPlanActivity extends Activity{
         name = i.getExtras().getString("name"); 
         populateListView(); 
         listViewClick(); 
-    } 
+    }
+    
 public void populateListView(){ 
 Cursor result = mydb.getAllRows(name); 
 startManagingCursor(result); 
