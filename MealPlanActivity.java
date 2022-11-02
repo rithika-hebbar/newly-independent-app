@@ -26,7 +26,7 @@ public class MealPlanActivity extends Activity{
     }
     
     public void populateListView(){ 
-Cursor result = mydb.getAllRows(name); 
+        Cursor result = mydb.getAllRows(name); 
 startManagingCursor(result); 
 String[] fields = new String[]{"_id", "item","meal","date"};
 int[] viewid = new int[]{R.id.tvnone,R.id.tvitem, R.id.tvmeal, R.id.tvdate}; 
