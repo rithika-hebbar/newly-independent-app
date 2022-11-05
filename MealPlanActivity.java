@@ -28,7 +28,8 @@ public class MealPlanActivity extends Activity{
     public void populateListView(){ 
         Cursor result = mydb.getAllRows(name); 
         startManagingCursor(result); 
-        String[] fields = new String[]{"_id", "item","meal","date"};int[] viewid = new int[]{R.id.tvnone,R.id.tvitem, R.id.tvmeal, R.id.tvdate}; 
+        String[] fields = new String[]{"_id", "item","meal","date"};
+        int[] viewid = new int[]{R.id.tvnone,R.id.tvitem, R.id.tvmeal, R.id.tvdate}; 
 SimpleCursorAdapter ca = new SimpleCursorAdapter(this, 
 R.layout.layout_listview, result, fields, viewid); 
 ListView lv = (ListView)findViewById(R.id.listView1); 
