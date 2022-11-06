@@ -30,8 +30,7 @@ public class MealPlanActivity extends Activity{
         startManagingCursor(result); 
         String[] fields = new String[]{"_id", "item","meal","date"};
         int[] viewid = new int[]{R.id.tvnone,R.id.tvitem, R.id.tvmeal, R.id.tvdate}; 
-        SimpleCursorAdapter ca = new SimpleCursorAdapter(this, R.layout.layout_listview, result, fields, viewid); 
-ListView lv = (ListView)findViewById(R.id.listView1); 
+        SimpleCursorAdapter ca = new SimpleCursorAdapter(this, R.layout.layout_listview, result, fields, viewid); ListView lv = (ListView)findViewById(R.id.listView1); 
 lv.setAdapter(ca); 
 } 
 public void listViewClick(){ 
