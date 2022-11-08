@@ -36,7 +36,7 @@ public class MealPlanActivity extends Activity{
     }
     
     public void listViewClick(){ 
-ListView lv = (ListView)findViewById(R.id.listView1); 
+        ListView lv = (ListView)findViewById(R.id.listView1); 
 lv.setOnItemClickListener(new AdapterView.OnItemClickListener() { 
 @Override 
 public void onItemClick(AdapterView<?> parent, View viewclick, int pos, long id) { 
