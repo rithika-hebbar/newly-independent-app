@@ -35,7 +35,7 @@ public class MealPlanActivity extends Activity{
         lv.setAdapter(ca); 
     }
     
-public void listViewClick(){ 
+    public void listViewClick(){ 
 ListView lv = (ListView)findViewById(R.id.listView1); 
 lv.setOnItemClickListener(new AdapterView.OnItemClickListener() { 
 @Override 
