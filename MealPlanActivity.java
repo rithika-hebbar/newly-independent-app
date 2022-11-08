@@ -40,7 +40,7 @@ public class MealPlanActivity extends Activity{
         
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() { 
             @Override 
-public void onItemClick(AdapterView<?> parent, View viewclick, int pos, long id) { 
+            public void onItemClick(AdapterView<?> parent, View viewclick, int pos, long id) { 
 // TODO Auto-generated method stub 
 Cursor c = mydb.getRow(id); 
 if(c.moveToFirst()){ 
