@@ -33,7 +33,8 @@ public class MealPlanActivity extends Activity{
         SimpleCursorAdapter ca = new SimpleCursorAdapter(this, R.layout.layout_listview, result, fields, viewid); 
         ListView lv = (ListView)findViewById(R.id.listView1); 
         lv.setAdapter(ca); 
-    } 
+    }
+    
 public void listViewClick(){ 
 ListView lv = (ListView)findViewById(R.id.listView1); 
 lv.setOnItemClickListener(new AdapterView.OnItemClickListener() { 
