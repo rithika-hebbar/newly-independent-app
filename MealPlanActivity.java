@@ -43,7 +43,7 @@ public class MealPlanActivity extends Activity{
             
             public void onItemClick(AdapterView<?> parent, View viewclick, int pos, long id) { 
                 // TODO Auto-generated method stub 
-Cursor c = mydb.getRow(id); 
+                Cursor c = mydb.getRow(id); 
 if(c.moveToFirst()){ 
 long iddb = c.getLong(0); 
 String item = c.getString(2); 
