@@ -46,7 +46,7 @@ public class MealPlanActivity extends Activity{
                 Cursor c = mydb.getRow(id); 
 
                 if(c.moveToFirst()){ 
-long iddb = c.getLong(0); 
+                    long iddb = c.getLong(0); 
 String item = c.getString(2); 
 String meal = c.getString(3); 
 String date = c.getString(4); 
