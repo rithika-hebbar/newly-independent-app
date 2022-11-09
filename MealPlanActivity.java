@@ -42,7 +42,7 @@ public class MealPlanActivity extends Activity{
             @Override
             
             public void onItemClick(AdapterView<?> parent, View viewclick, int pos, long id) { 
-// TODO Auto-generated method stub 
+                // TODO Auto-generated method stub 
 Cursor c = mydb.getRow(id); 
 if(c.moveToFirst()){ 
 long iddb = c.getLong(0); 
