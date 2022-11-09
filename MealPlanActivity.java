@@ -47,7 +47,7 @@ public class MealPlanActivity extends Activity{
 
                 if(c.moveToFirst()){ 
                     long iddb = c.getLong(0); 
-String item = c.getString(2); 
+                    String item = c.getString(2); 
 String meal = c.getString(3); 
 String date = c.getString(4); 
 Intent lvi = new Intent(getApplicationContext(), 
