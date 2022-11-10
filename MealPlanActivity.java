@@ -50,8 +50,7 @@ public class MealPlanActivity extends Activity{
                     String item = c.getString(2); 
                     String meal = c.getString(3); 
                     String date = c.getString(4); 
-                    Intent lvi = new Intent(getApplicationContext(), 
-ListItemActivity.class); 
+                    Intent lvi = new Intent(getApplicationContext(), ListItemActivity.class); 
 lvi.putExtra("id", String.valueOf(iddb)); 
 lvi.putExtra("item", item); 
 lvi.putExtra("meal", meal); 
