@@ -54,8 +54,7 @@ public class MealPlanActivity extends Activity{
                     lvi.putExtra("id", String.valueOf(iddb)); 
                     lvi.putExtra("item", item); 
                     lvi.putExtra("meal", meal); 
-                    lvi.putExtra("date", date); 
-lvi.putExtra("name", name); 
+                    lvi.putExtra("date", date); lvi.putExtra("name", name); 
 startActivity(lvi); 
 } 
 } 
