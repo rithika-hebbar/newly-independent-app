@@ -60,6 +60,5 @@ public class MealPlanActivity extends Activity{
                 } 
             } 
         }); 
-    } 
-}
+    } }
 
