@@ -58,8 +58,7 @@ public class MealPlanActivity extends Activity{
                     lvi.putExtra("name", name); 
                     startActivity(lvi); 
                 } 
-            } 
-}); 
+            } }); 
 } 
 }
 
