@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" 
+android:layout_height="match_parent" > 
+<TextView 
+android:id="@+id/datetv" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentLeft="true" 
+android:layout_alignParentTop="true" 
+android:layout_marginLeft="28dp" 
+android:layout_marginTop="24dp" 
+android:text="Large Text"
+android:textColor="#f6740a" 
+android:textAppearance="?android:attr/textAppearanceLarge" /> 
+<TextView 
+android:id="@+id/mealtv" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignBottom="@+id/datetv" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="37dp" 
+android:text="Medium Text" 
+android:textColor="#008037" 
+android:textAppearance="?android:attr/textAppearanceMedium" /> 
+<TextView 
+android:id="@+id/itemtv" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignLeft="@+id/datetv" 
+android:layout_below="@+id/datetv" 
+android:layout_marginTop="45dp" 
+android:text="Large Text" 
+android:textColor="#a80936" 
+android:textAppearance="?android:attr/textAppearanceLarge" /> 
+<Button 
+android:id="@+id/btnrec" 
+android:layout_width="wrap_content" 
+android:layout_height="40dp" 
+android:layout_below="@+id/itemtv" 
+android:layout_centerHorizontal="true" 
+android:layout_marginTop="38dp" 
+android:background="#ffde59" 
+android:padding="5dp" 
+android:text="Go to recipe" /> 
+<Button 
+android:id="@+id/btndel" 
+android:layout_width="wrap_content" 
+android:layout_height="40dp"
+android:layout_alignLeft="@+id/btnrec" 
+android:layout_below="@+id/btnrec" 
+android:layout_marginTop="23dp" 
+android:layout_centerHorizontal="true" 
+android:textColor="#ffffff" 
+android:background="#000000" 
+android:padding="9dp" 
+android:text="Delete Plan" /> 
+</RelativeLayout> 
