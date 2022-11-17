@@ -12,7 +12,7 @@
                   android:layout_marginTop="24dp" 
                   android:text="Large Text" android:textColor="#f6740a" 
                   android:textAppearance="?android:attr/textAppearanceLarge" /> 
-<TextView 
+        <TextView 
 android:id="@+id/mealtv" 
 android:layout_width="wrap_content" 
 android:layout_height="wrap_content" 
