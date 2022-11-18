@@ -14,7 +14,8 @@
                   android:textAppearance="?android:attr/textAppearanceLarge" />
         
         <TextView android:id="@+id/mealtv" 
-                  android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                  android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content" 
 android:layout_alignBottom="@+id/datetv" 
 android:layout_alignParentRight="true" 
 android:layout_marginRight="37dp" 
