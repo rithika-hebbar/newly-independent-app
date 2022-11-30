@@ -29,8 +29,7 @@
                   android:layout_alignLeft="@+id/datetv" 
                   android:layout_below="@+id/datetv" 
                   android:layout_marginTop="45dp" 
-                  android:text="Large Text" 
-android:textColor="#a80936" 
+                  android:text="Large Text" android:textColor="#a80936" 
 android:textAppearance="?android:attr/textAppearanceLarge" /> 
 <Button 
 android:id="@+id/btnrec" 
