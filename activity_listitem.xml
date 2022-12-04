@@ -39,8 +39,7 @@
                 android:layout_below="@+id/itemtv" 
                 android:layout_centerHorizontal="true" 
                 android:layout_marginTop="38dp" 
-                android:background="#ffde59" android:padding="5dp" 
-android:text="Go to recipe" /> 
+                android:background="#ffde59" android:padding="5dp" android:text="Go to recipe" /> 
 <Button 
 android:id="@+id/btndel" 
 android:layout_width="wrap_content" 
