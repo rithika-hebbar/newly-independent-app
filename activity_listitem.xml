@@ -43,8 +43,7 @@
                 android:padding="5dp" android:text="Go to recipe" /> 
 
         <Button android:id="@+id/btndel" 
-                android:layout_width="wrap_content" android:layout_height="40dp"
-android:layout_alignLeft="@+id/btnrec" 
+                android:layout_width="wrap_content" android:layout_height="40dp" android:layout_alignLeft="@+id/btnrec" 
 android:layout_below="@+id/btnrec" 
 android:layout_marginTop="23dp" 
 android:layout_centerHorizontal="true" 
