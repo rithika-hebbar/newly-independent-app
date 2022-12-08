@@ -50,7 +50,8 @@
                 android:layout_alignLeft="@+id/btnrec" 
                 android:layout_below="@+id/btnrec" 
                 android:layout_marginTop="23dp" 
-                android:layout_centerHorizontal="true" android:textColor="#ffffff" android:background="#000000" 
+                android:layout_centerHorizontal="true" 
+                android:textColor="#ffffff" android:background="#000000" 
 android:padding="9dp" 
 android:text="Delete Plan" /> 
 </RelativeLayout> 
