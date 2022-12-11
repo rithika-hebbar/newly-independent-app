@@ -1,1 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" 
+android:layout_height="match_parent" > 
+<TextView 
+android:id="@+id/tvitem" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentLeft="true" 
+android:layout_alignParentTop="true" 
+android:layout_marginLeft="15dp" 
+android:layout_marginTop="16dp" 
+android:text="Medium Text" 
+android:textAppearance="?android:attr/textAppearanceMedium" /> 
+<TextView 
+android:id="@+id/tvmeal" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignLeft="@+id/tvitem" 
+android:layout_below="@+id/tvitem" 
+android:text="Small Text" 
+android:textAppearance="?android:attr/textAppearanceSmall" /> 
+<TextView 
+android:id="@+id/tvdate" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:layout_above="@+id/tvmeal" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="54dp" 
+android:text="Small Text" 
+android:textAppearance="?android:attr/textAppearanceSmall" /> 
+<TextView 
+android:id="@+id/tvnone" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignBaseline="@+id/tvmeal" 
+android:layout_alignBottom="@+id/tvmeal" 
+android:layout_alignLeft="@+id/tvdate" 
+android:text="-" 
+android:visibility="gone" 
+android:textAppearance="?android:attr/textAppearanceSmall" /> </RelativeLayout> 
 
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" 
+android:layout_height="match_parent" > 
+<TextView 
+android:id="@+id/tvitem" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentLeft="true" 
+android:layout_alignParentTop="true" 
+android:layout_marginLeft="15dp" 
+android:layout_marginTop="16dp" 
+android:text="Medium Text" 
+android:textAppearance="?android:attr/textAppearanceMedium" /> 
+<TextView 
+android:id="@+id/tvmeal" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignLeft="@+id/tvitem" 
+android:layout_below="@+id/tvitem" 
+android:text="Small Text" 
+android:textAppearance="?android:attr/textAppearanceSmall" /> 
+<TextView 
+android:id="@+id/tvdate" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:layout_above="@+id/tvmeal" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="54dp" 
+android:text="Small Text" 
+android:textAppearance="?android:attr/textAppearanceSmall" /> 
+<TextView 
+android:id="@+id/tvnone" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignBaseline="@+id/tvmeal" 
+android:layout_alignBottom="@+id/tvmeal" 
+android:layout_alignLeft="@+id/tvdate" 
+android:text="-" 
+android:visibility="gone" 
+android:textAppearance="?android:attr/textAppearanceSmall" /> </RelativeLayout> 
