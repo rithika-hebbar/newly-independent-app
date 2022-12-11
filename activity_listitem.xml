@@ -53,5 +53,6 @@
                 android:layout_centerHorizontal="true" 
                 android:textColor="#ffffff" 
                 android:background="#000000" 
-                android:padding="9dp" android:text="Delete Plan" /> 
+                android:padding="9dp" 
+                android:text="Delete Plan" /> 
 </RelativeLayout> 
