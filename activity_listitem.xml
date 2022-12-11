@@ -55,4 +55,5 @@
                 android:background="#000000" 
                 android:padding="9dp" 
                 android:text="Delete Plan" /> 
+        
 </RelativeLayout> 
