@@ -16,9 +16,9 @@ public class ListItemActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) { 
         super.onCreate(savedInstanceState); 
         setContentView(R.layout.activity_listitem);
-Intent i = getIntent(); 
-id = i.getExtras().getString("id"); 
-item = i.getExtras().getString("item"); 
+        Intent i = getIntent(); 
+        id = i.getExtras().getString("id"); 
+        item = i.getExtras().getString("item"); 
 meal = i.getExtras().getString("meal"); 
 date = i.getExtras().getString("date"); 
 name = i.getExtras().getString("name"); 
