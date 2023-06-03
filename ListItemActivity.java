@@ -16,33 +16,36 @@ public class ListItemActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) { 
         super.onCreate(savedInstanceState); 
         setContentView(R.layout.activity_listitem);
-        Intent i = getIntent(); 
+        Intent i = getIntent();
+        
         id = i.getExtras().getString("id"); 
         item = i.getExtras().getString("item"); 
         meal = i.getExtras().getString("meal"); 
         date = i.getExtras().getString("date"); 
-        name = i.getExtras().getString("name"); 
+        name = i.getExtras().getString("name");
+        
         tvdate = (TextView)findViewById(R.id.datetv); 
         tvdate.setText(date); 
-tvmeal = (TextView)findViewById(R.id.mealtv); 
-tvmeal.setText(meal); 
-tvitem = (TextView)findViewById(R.id.itemtv); 
-tvitem.setText(item); 
-btnrec = (Button)findViewById(R.id.btnrec); 
-btndel = (Button)findViewById(R.id.btndel); 
-searchname = tvitem.getText().toString(); 
-mydb = new MealDataHelper(this); 
-btndel.setOnClickListener(new View.OnClickListener() { 
-@Override 
-public void onClick(View arg0) { 
-// TODO Auto-generated method stub 
-Integer delrows = mydb.deletePlan(id); 
-if(delrows > 0){ 
-Toast.makeText(ListItemActivity.this, "Deleted 
-sucessfully!", Toast.LENGTH_SHORT).show(); 
-Intent deli = new Intent(getApplicationContext(), 
-MealPlanActivity.class); 
-deli.putExtra("name", name); 
+        tvmeal = (TextView)findViewById(R.id.mealtv); 
+        tvmeal.setText(meal); 
+        tvitem = (TextView)findViewById(R.id.itemtv); 
+        tvitem.setText(item);
+        
+        btnrec = (Button)findViewById(R.id.btnrec); 
+        btndel = (Button)findViewById(R.id.btndel); 
+        searchname = tvitem.getText().toString(); 
+        mydb = new MealDataHelper(this);
+        
+        btndel.setOnClickListener(new View.OnClickListener() { 
+            @Override 
+            public void onClick(View arg0) { 
+                // TODO Auto-generated method stub 
+                Integer delrows = mydb.deletePlan(id);
+                
+                if(delrows > 0){ 
+                    Toast.makeText(ListItemActivity.this, "Deleted sucessfully!", Toast.LENGTH_SHORT).show(); 
+                    Intent deli = new Intent(getApplicationContext(), MealPlanActivity.class); 
+                    deli.putExtra("name", name); 
 startActivity(deli); 
 }else{
 Toast.makeText(ListItemActivity.this, "Error!", 
