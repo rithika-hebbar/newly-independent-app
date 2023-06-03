@@ -25,15 +25,15 @@
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content" 
                   android:layout_above="@+id/tvmeal" 
-android:layout_alignParentRight="true" 
-android:layout_marginRight="54dp" 
-android:text="Small Text" 
-android:textAppearance="?android:attr/textAppearanceSmall" /> 
-<TextView 
-android:id="@+id/tvnone" 
-android:layout_width="wrap_content" 
-android:layout_height="wrap_content" 
-android:layout_alignBaseline="@+id/tvmeal" 
+                  android:layout_alignParentRight="true" 
+                  android:layout_marginRight="54dp" 
+                  android:text="Small Text" 
+                  android:textAppearance="?android:attr/textAppearanceSmall" /> 
+
+        <TextView android:id="@+id/tvnone" 
+                  android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content" 
+                  android:layout_alignBaseline="@+id/tvmeal" 
 android:layout_alignBottom="@+id/tvmeal" 
 android:layout_alignLeft="@+id/tvdate" 
 android:text="-" 
