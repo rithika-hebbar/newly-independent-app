@@ -1,9 +1,11 @@
-package com.example.newlyindependent; 
+package com.example.newlyindependent;
+
 import android.app.Activity; 
 import android.content.Intent; 
 import android.os.Bundle; 
 import android.view.View; 
-import android.widget.*; 
+import android.widget.*;
+
 public class ListItemActivity extends Activity{ 
 String id, item, meal, date, name; 
 TextView tvdate, tvmeal, tvitem; 
