@@ -51,7 +51,8 @@ public class ListItemActivity extends Activity{
                     Toast.makeText(ListItemActivity.this, "Error!", Toast.LENGTH_SHORT).show(); 
                 } 
             } 
-}); 
+        });
+        
 btnrec.setOnClickListener(new View.OnClickListener() { 
 @Override 
 public void onClick(View arg0) { 
