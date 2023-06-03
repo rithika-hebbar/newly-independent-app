@@ -64,14 +64,13 @@ public class ListItemActivity extends Activity{
                 }else if(searchname.equals("Aloo Sandwich")){ 
                     Intent ri = new Intent(getApplicationContext(), SandwichActivity.class); 
                     ri.putExtra("name", name); 
-startActivity(ri); 
-}else if(searchname.equals("Lemon Rice")){ 
-Intent ri = new Intent(getApplicationContext(), 
-LemonActivity.class); 
-ri.putExtra("name", name); 
-startActivity(ri); 
-}else if(searchname.equals("Rasam Rice")){ 
-Intent ri = new Intent(getApplicationContext(), 
+                    startActivity(ri); 
+                }else if(searchname.equals("Lemon Rice")){ 
+                    Intent ri = new Intent(getApplicationContext(), LemonActivity.class); 
+                    ri.putExtra("name", name); 
+                    startActivity(ri); 
+                }else if(searchname.equals("Rasam Rice")){ 
+                    Intent ri = new Intent(getApplicationContext(), 
 RasamActivity.class); 
 ri.putExtra("name", name); 
 startActivity(ri);
