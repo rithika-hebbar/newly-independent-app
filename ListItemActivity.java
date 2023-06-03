@@ -21,9 +21,9 @@ public class ListItemActivity extends Activity{
         item = i.getExtras().getString("item"); 
         meal = i.getExtras().getString("meal"); 
         date = i.getExtras().getString("date"); 
-name = i.getExtras().getString("name"); 
-tvdate = (TextView)findViewById(R.id.datetv); 
-tvdate.setText(date); 
+        name = i.getExtras().getString("name"); 
+        tvdate = (TextView)findViewById(R.id.datetv); 
+        tvdate.setText(date); 
 tvmeal = (TextView)findViewById(R.id.mealtv); 
 tvmeal.setText(meal); 
 tvitem = (TextView)findViewById(R.id.itemtv); 
