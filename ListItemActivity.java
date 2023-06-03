@@ -7,13 +7,15 @@ import android.view.View;
 import android.widget.*;
 
 public class ListItemActivity extends Activity{ 
-String id, item, meal, date, name; 
-TextView tvdate, tvmeal, tvitem; 
-Button btnrec, btndel; 
-String searchname; 
-MealDataHelper mydb; 
-protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); 
-setContentView(R.layout.activity_listitem);
+    String id, item, meal, date, name; 
+    TextView tvdate, tvmeal, tvitem; 
+    Button btnrec, btndel; 
+    String searchname; 
+    MealDataHelper mydb;
+    
+    protected void onCreate(Bundle savedInstanceState) { 
+        super.onCreate(savedInstanceState); 
+        setContentView(R.layout.activity_listitem);
 Intent i = getIntent(); 
 id = i.getExtras().getString("id"); 
 item = i.getExtras().getString("item"); 
