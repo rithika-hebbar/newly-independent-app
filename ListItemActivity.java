@@ -61,10 +61,9 @@ public class ListItemActivity extends Activity{
                     Intent ri = new Intent(getApplicationContext(), RavadosaActivity.class); 
                     ri.putExtra("name", name); 
                     startActivity(ri); 
-}else if(searchname.equals("Aloo Sandwich")){ 
-Intent ri = new Intent(getApplicationContext(), 
-SandwichActivity.class); 
-ri.putExtra("name", name); 
+                }else if(searchname.equals("Aloo Sandwich")){ 
+                    Intent ri = new Intent(getApplicationContext(), SandwichActivity.class); 
+                    ri.putExtra("name", name); 
 startActivity(ri); 
 }else if(searchname.equals("Lemon Rice")){ 
 Intent ri = new Intent(getApplicationContext(), 
