@@ -46,8 +46,8 @@ public class ListItemActivity extends Activity{
                     Toast.makeText(ListItemActivity.this, "Deleted sucessfully!", Toast.LENGTH_SHORT).show(); 
                     Intent deli = new Intent(getApplicationContext(), MealPlanActivity.class); 
                     deli.putExtra("name", name); 
-startActivity(deli); 
-}else{
+                    startActivity(deli); 
+                }else{
 Toast.makeText(ListItemActivity.this, "Error!", 
 Toast.LENGTH_SHORT).show(); 
 } 
