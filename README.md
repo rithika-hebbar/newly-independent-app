@@ -5,5 +5,5 @@
 - IDE: Eclipse
 
 
-![NI app collage.png](https://github.com/rithika-hebbar/newly-independent-app/blob/main/NI%20app%20collage.png)
+//![NI app collage.png](https://github.com/rithika-hebbar/newly-independent-app/blob/main/NI%20app%20collage.png)
 
