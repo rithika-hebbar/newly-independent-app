@@ -58,10 +58,9 @@ public class ListItemActivity extends Activity{
             public void onClick(View arg0) { 
                 // TODO Auto-generated method stub 
                 if(searchname.equals("Rava Dosa")){ 
-Intent ri = new Intent(getApplicationContext(), 
-RavadosaActivity.class); 
-ri.putExtra("name", name); 
-startActivity(ri); 
+                    Intent ri = new Intent(getApplicationContext(), RavadosaActivity.class); 
+                    ri.putExtra("name", name); 
+                    startActivity(ri); 
 }else if(searchname.equals("Aloo Sandwich")){ 
 Intent ri = new Intent(getApplicationContext(), 
 SandwichActivity.class); 
