@@ -48,8 +48,7 @@ public class ListItemActivity extends Activity{
                     deli.putExtra("name", name); 
                     startActivity(deli); 
                 }else{
-Toast.makeText(ListItemActivity.this, "Error!", 
-Toast.LENGTH_SHORT).show(); 
+                    Toast.makeText(ListItemActivity.this, "Error!", Toast.LENGTH_SHORT).show(); 
 } 
 } 
 }); 
