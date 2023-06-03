@@ -19,8 +19,8 @@ public class ListItemActivity extends Activity{
         Intent i = getIntent(); 
         id = i.getExtras().getString("id"); 
         item = i.getExtras().getString("item"); 
-meal = i.getExtras().getString("meal"); 
-date = i.getExtras().getString("date"); 
+        meal = i.getExtras().getString("meal"); 
+        date = i.getExtras().getString("date"); 
 name = i.getExtras().getString("name"); 
 tvdate = (TextView)findViewById(R.id.datetv); 
 tvdate.setText(date); 
