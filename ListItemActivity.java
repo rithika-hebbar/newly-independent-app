@@ -53,11 +53,11 @@ public class ListItemActivity extends Activity{
             } 
         });
         
-btnrec.setOnClickListener(new View.OnClickListener() { 
-@Override 
-public void onClick(View arg0) { 
-// TODO Auto-generated method stub 
-if(searchname.equals("Rava Dosa")){ 
+        btnrec.setOnClickListener(new View.OnClickListener() { 
+            @Override 
+            public void onClick(View arg0) { 
+                // TODO Auto-generated method stub 
+                if(searchname.equals("Rava Dosa")){ 
 Intent ri = new Intent(getApplicationContext(), 
 RavadosaActivity.class); 
 ri.putExtra("name", name); 
