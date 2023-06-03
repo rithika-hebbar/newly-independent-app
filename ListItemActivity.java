@@ -49,8 +49,8 @@ public class ListItemActivity extends Activity{
                     startActivity(deli); 
                 }else{
                     Toast.makeText(ListItemActivity.this, "Error!", Toast.LENGTH_SHORT).show(); 
-} 
-} 
+                } 
+            } 
 }); 
 btnrec.setOnClickListener(new View.OnClickListener() { 
 @Override 
